@@ -10,7 +10,7 @@ mesh = RF24Mesh(radio, network)
 
 mesh.setNodeID(0)
 mesh.begin(108, RF24_250KBPS)
-radio.setPALevel(RF24_PA_MAX) # Power Amplifier
+radio.setPALevel(RF24_PA_MAX)  # Power Amplifier
 radio.printDetails()
 
 while 1:
